@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Free Flow Solutions, a New Jersey real estate investment company." />
+  <title>Privacy Policy | Free Flow Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-brand">
+      <span class="brand-main">Free Flow Solutions</span>
+      <span class="brand-sub">NJ Real Estate</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="legal-page">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 1, 2026</p>
+
+    <p>Free Flow Solutions ("Free Flow Solutions," "we," "us," or "our") is a New Jersey real estate investment company. This Privacy Policy explains how we collect, use, and protect your information when you contact us or use our website.</p>
+
+    <h2>Information We Collect</h2>
+    <p>We collect information you provide directly to us, such as your name, phone number, email address, property address, and any details about your situation that you share when you submit a form, call, email, or text us.</p>
+
+    <h2>How We Use Your Information</h2>
+    <p>We use your information to respond to your inquiry, discuss options for your property, prepare an offer, and provide customer service — including by phone call, email, and SMS text message where you have given consent.</p>
+
+    <h2>SMS / Text Messaging</h2>
+    <p>When you opt in to receive text messages from Free Flow Solutions, we use your phone number only to communicate with you about your property inquiry and related options. <strong>We do not sell, rent, or share your phone number or your SMS consent with any third parties or affiliates for their own marketing purposes.</strong></p>
+    <p>Message and data rates may apply, and message frequency varies. You can opt out of text messages at any time by replying <strong>STOP</strong>, or reply <strong>HELP</strong> for assistance. Opting out of texts will not affect our ability to work with you through other channels.</p>
+
+    <h2>How We Share Information</h2>
+    <p>We only share your information with service providers who help us operate our business (for example, our messaging and communications platform), and only to the extent needed to serve you. These providers are not permitted to use your information for their own marketing. We may also disclose information if required by law. <strong>We never sell your personal information.</strong></p>
+
+    <h2>Data Retention</h2>
+    <p>We retain your information for as long as needed to serve you and to comply with our legal obligations. You may request that we delete your information at any time.</p>
+
+    <h2>Your Choices</h2>
+    <p>You may opt out of text messages by replying STOP. You may request that we correct or delete your information, or ask any privacy question, by emailing <a href="mailto:info@freeflow-solutions.com">info@freeflow-solutions.com</a>.</p>
+
+    <h2>Contact Us</h2>
+    <p>Free Flow Solutions<br />
+    Email: <a href="mailto:info@freeflow-solutions.com">info@freeflow-solutions.com</a><br />
+    Phone: <a href="tel:+18562260869">(856) 226-0869</a></p>
+
+    <a class="legal-back" href="index.html">&larr; Back to Home</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <span>Free Flow Solutions</span> — New Jersey Real Estate Investment Company. All rights reserved.</p>
+    <p class="footer-links"><a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Service</a></p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+  </script>
+
+</body>
+</html>

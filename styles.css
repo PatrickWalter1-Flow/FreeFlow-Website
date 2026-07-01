@@ -389,3 +389,130 @@ footer span { color: var(--gold); }
   section { padding: 4rem 1.25rem; }
   .about-stats { grid-template-columns: 1fr; }
 }
+
+/* ── OPT-IN FORM ── */
+.contact-form {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.form-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: var(--white);
+  margin-bottom: 1.25rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 4px;
+  padding: 0.75rem 0.9rem;
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder { color: rgba(255,255,255,0.4); }
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.consent input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  flex-shrink: 0;
+  accent-color: var(--gold);
+}
+
+.consent span {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+.consent a { color: var(--gold-light); }
+
+.contact-form .btn-primary {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-note {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.78rem;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+/* ── FOOTER LINKS ── */
+.footer-links { margin-top: 0.5rem; }
+.footer-links a {
+  color: rgba(255,255,255,0.55);
+  text-decoration: none;
+}
+.footer-links a:hover { color: var(--gold); }
+
+/* ── LEGAL PAGES ── */
+.legal-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 7rem 2rem 4rem;
+}
+.legal-page h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+.legal-page .updated {
+  color: var(--gray);
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+}
+.legal-page h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin: 2rem 0 0.6rem;
+}
+.legal-page p,
+.legal-page li {
+  color: var(--gray);
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+.legal-page ul { padding-left: 1.4rem; }
+.legal-page a { color: var(--gold); }
+.legal-back {
+  display: inline-block;
+  margin-top: 2.5rem;
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
